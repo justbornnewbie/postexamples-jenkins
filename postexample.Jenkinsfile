@@ -7,6 +7,7 @@ pipeline {
             steps{
                 sh '''
                 echo "this is post example"
+                echo "Success, Abort"
                 '''
             }
         }
@@ -21,6 +22,5 @@ pipeline {
         abort{
             echo"I cencelled it"
         }
-        
     }
 }
