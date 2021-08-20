@@ -18,6 +18,9 @@ pipeline {
         success{
             echo "I succeed"
         }
+        abort{
+            echo"I cencelled it"
+        }
         
     }
 }
