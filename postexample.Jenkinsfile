@@ -22,5 +22,7 @@ pipeline {
         abort{
             echo"I cencelled it"
         }
+        failure {            echo 'I failed :('        
+        }
     }
 }
